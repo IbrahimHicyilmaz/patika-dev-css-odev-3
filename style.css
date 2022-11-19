@@ -1,0 +1,249 @@
+.clearfix {
+    clear: both;
+}
+
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    width: auto;
+    height: 753px;
+}
+
+.top-bar {
+    height: 5%;
+    display: inline-block;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    text-align: right;
+}
+
+.nokta {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+a.nokta {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+a.nokta:hover {
+    text-decoration: none;
+    background-color: rgb(200, 200, 200);
+    border-radius: 5px;
+}
+
+.top-bar a.gmail,
+.top-bar a.gorsel {
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+    margin: 8px;
+}
+
+.top-bar a.gmail:hover,
+.top-bar a.gorsel:hover {
+    text-decoration: underline;
+}
+
+.top-bar a.oturum {
+    background: #1a73e8;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.top-bar a.oturum:hover {
+    background-color: #1362c9;
+}
+
+.logo {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.logo center {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+    display: block;
+}
+
+.logo img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+}
+
+.search {
+    height: 15%;
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.search .text {
+    height: 40%;
+    display: flex;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: calc(632px + 6px);
+    width: auto;
+    max-width: 584px;
+}
+
+.search .text .textic {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.search .text .textic .searchlogo {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search .text .textic .searchlogo span {
+    margin-top: 3px;
+    color: #9aa0a6;
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+}
+
+.search .text .textic .input {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.search .text .textic .input input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+    font-size: 16px;
+}
+
+.search .buttons {
+    height: 60%;
+    margin: 30px;
+    display: block;
+}
+
+.search .buttons input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    padding: 5 16px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    appearance: auto;
+    white-space: pre;
+    align-items: flex-start;
+    box-sizing: border-box;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    -webkit-rtl-ordering: logical;
+}
+
+.nothing {
+    height: 40%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.bottom-description {
+    width: 100%;
+    height: 10%;
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.bottom-description a {
+    text-decoration: none;
+    color: #70757a;
+    margin: 5px;
+}
+
+.bottom-description a:hover {
+    text-decoration: underline;
+}
+
+.bottom-description .bottom1 {
+    display: inline-block;
+    text-align: left;
+    color: #70757a;
+    margin-left: 55px;
+}
+
+.bottom-description .bottom2 {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.bottom-description .bottom3 {
+    display: inline-block;
+    width: 33%;
+    float: center;
+}
+
+.bottom-img {
+    height: 14px;
+    margin-right: 6px;
+}
+
+.bottom-description .bottom4 {
+    display: inline-block;
+    margin-right: 50px;
+    float: right;
+}
